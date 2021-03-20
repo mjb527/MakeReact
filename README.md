@@ -15,7 +15,7 @@ A shell script designed to create a basic React.js file with a functional compon
 
 import React from 'react';
 
-`function About() {
+```function About() {
 	return(
 		<div>
 		</div>
@@ -23,4 +23,4 @@ import React from 'react';
 
 }
 
-export default About;`
+export default About;```
