@@ -13,9 +13,10 @@ A shell script designed to create a basic React.js file with a functional compon
 * This will create the file `About.js` in your `pages` directory
 * It will be structured as follows:
 
+```
 import React from 'react';
 
-```function About() {
+function About() {
 	return(
 		<div>
 		</div>
@@ -23,4 +24,5 @@ import React from 'react';
 
 }
 
-export default About;```
+export default About;
+```
