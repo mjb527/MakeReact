@@ -7,7 +7,7 @@ if [[ $1 =~ [.*/]([a-zA-Z]*)\.js$ ]]; then
 	# import react
 	echo -e "import React from 'react';\n" >> $PATH
 	# create function
-	echo -e "function ${NAME}() {\n\treturn(\n\t\t<div>\n\t\t</div>\n\t);\n\n}" >> $PATH
+	echo -e "function ${NAME}() {\n\treturn(\n\t\t<div>\n\t\t</div>\n\t);}\n\n" >> $PATH
 	# export function
 	echo "export default ${NAME};" >> $PATH
 
